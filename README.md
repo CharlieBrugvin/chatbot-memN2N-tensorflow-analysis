@@ -11,6 +11,15 @@ I have added :
 
 **I have only updated the `single_dialog.py` file. All modifications are marked with the comment `#cabu`.**
 
+## Tests
+
+I have ran 20 models (see `/run_models.sh`) to analyze the impact of the number of training examples, the batch_size & the number of hops.
+
+Outputed csv files can be found at `/output/notebook/metrics`. 
+I have presented and interpred the results in a jupyter notebook (`/output/notebook/notebook.ipynb`).
+
+### See the [notebook in html](/output/notebook/notebook.ipynb)
+
 ## Use
 
 ### command line
@@ -37,15 +46,6 @@ This csv line contains :
 - The accuracy made on training, validation & test set
 
 *Note : A csv file can contain multiple models. If model ids are uniques, then [model_id, current_epoch] is a primary key*
-
-### Tests
-
-I have ran 20 models (see `/run_models.sh`) to analyze the impact of the number of training examples, the batch_size & the number of hops.
-
-Outputed csv files can be found at `/output/notebook/metrics`. 
-I have presented and interpred the results in a jupyter notebook (`/output/notebook/notebook.ipynb`).
-
-**See the [notebook in html](/output/notebook/notebook.html)**
 
 --------
 
