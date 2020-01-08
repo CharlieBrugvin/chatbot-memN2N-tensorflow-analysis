@@ -1,6 +1,4 @@
-# Update 
-
-## Source code update
+# Source code update
 
 I have updated the sources from [chatbot-MemN2N-tensorflow](https://github.com/vyraun/chatbot-MemN2N-tensorflow) in order to test the model over different hyper-parameters (the number of training examples, the batch_size & the number of hops).
 
@@ -20,7 +18,9 @@ I have presented and interpred the results in a jupyter notebook (`/output/noteb
 
 ### See the [notebook](/output/notebook/notebook.ipynb)
 
-## Use
+-----------
+
+# Use
 
 ### command line
 
