@@ -18,7 +18,7 @@ I have ran 20 models (see `/run_models.sh`) to analyze the impact of the number 
 Outputed csv files can be found at `/output/notebook/metrics`. 
 I have presented and interpred the results in a jupyter notebook (`/output/notebook/notebook.ipynb`).
 
-### See the [notebook in html](/output/notebook/notebook.ipynb)
+### See the [notebook](/output/notebook/notebook.ipynb)
 
 ## Use
 
